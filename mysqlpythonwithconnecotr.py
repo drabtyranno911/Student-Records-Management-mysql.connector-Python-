@@ -44,7 +44,8 @@ while True:
         for r in cursor.fetchall():
             print("Roll No: " + str(r[0]) + ", Name: " + r[1] + ", Grade: " + r[2] + ", Marks: " + str(r[3]))
     else:
-        print("Invalid choice!")
+        print("Invalid choice")
 
 cursor.close()
 mydb.close()
+
